@@ -7,14 +7,8 @@ When you run this module, it performs a few tasks under the hood:
 - Uses ingest node to parse and process the log lines, shaping the data into a structure suitable for visualizing in Kibana
 - Deploys dashboards for visualizing the log data
 
-### Compatibility
 
-This module was tested with logs from OSes like Ubuntu 12.04, Centos 7, and macOS Sierra.
-
-This module is not available for Windows.
-
-
-### Installation
+## Installation
 
 ### Linux:
 
@@ -23,7 +17,7 @@ This module is not available for Windows.
 1. Enter the following script into the console using elevated privileges
 
 ```
-
+curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-traefik.sh > install-config-traefik.sh; chmod a+x  install-config-traefik.sh; ./install-config-traefik.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
 2. When prompted, select the proper environment to complete the installation.
